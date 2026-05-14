@@ -4,11 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class LoginServiceUnitTest {
-	@Test
-    public void testFailingCase() {
-        Assert.assertTrue(false);
-    }
-
+	
     @Test
     public void testValidLogin() {
         assertTrue(LoginService.login("aneeta", "1234", "2001-03-19"));
