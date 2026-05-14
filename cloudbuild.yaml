@@ -1,0 +1,4 @@
+steps:
+  - name: 'maven:3.8.6-openjdk-8'
+    entrypoint: 'mvn'
+    args: ['-f', 'webservice1/pom.xml', 'clean', 'test']
